@@ -1,0 +1,11 @@
+[workspace.package]
+version = "0.1.0"
+authors = ["Edrick Manoel <edrick_42@icloud.com>"]
+edition = "2021"
+license = "MIT"
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/client",
+]
